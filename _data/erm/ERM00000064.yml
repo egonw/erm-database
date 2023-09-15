@@ -1,0 +1,9 @@
+title: "Material: ERM00000064"
+type: ChemicalSubstance
+id: ERM00000064
+tag: erm:ERM00000064
+tags: erm:ERM00000064 10.3389/ftox.2022.981701
+chemicalComposition: TiO2
+scholarlyArticleDOI: [10.3389/ftox.2022.981701]
+datasetDOI: 
+rdfs:type: owl:Thing
