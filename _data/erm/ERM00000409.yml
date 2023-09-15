@@ -2,5 +2,5 @@ title: "Material: ERM00000409"
 type: ChemicalSubstance
 id: ERM00000409
 chemicalComposition: Fe3O4
-rdfs:type: owl:Thing
+a: owl:Thing
 tag: erm:ERM00000409

@@ -3,5 +3,6 @@ type: ChemicalSubstance
 id: ERM00000582
 chemicalSubstance: Au
 datasetDOI: [10.5281/ZENODO.7990251]
-rdfs:type: owl:Thing
+a: owl:Thing
 tag: erm:ERM00000582
+sameAs: [RiskGONE NM 18]

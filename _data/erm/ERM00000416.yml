@@ -4,5 +4,5 @@ id: ERM00000416
 tags: doi:10.5281/ZENODO.7940162 ERM00000416
 chemicalComposition: ZnO
 datasetDOI: 10.5281/ZENODO.7940162
-rdfs:type: owl:Thing
+a: owl:Thing
 tag: erm:ERM00000416

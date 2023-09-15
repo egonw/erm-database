@@ -17,6 +17,17 @@ layout: base
 
 {% if page.chemicalComposition %}<p class="post-meta">Chemical composition: {{ page.chemicalComposition }}</p>{% endif %}
 
+<!-- TODO: Compare the declared ontology class against the classes in _data/enmo and provide the link -->
+{% if page.a %}
+  {% assign type = page.a | replace: ':', '' %}
+  {% assign enmo_data = site.data.enmo[type] %}
+  {% if enmo_data %}
+    <p class="post-meta">Ontology class:  <a href="{{ site.data.enmo[type].URI }}">{{ page.a }}</p></a>
+  {% endif %}
+{% endif %}
+
+{% assign blogposts = site.tags[page.tag] %}
+{% if blogposts.size > 0 %}
 <h2 class="tag-title">Blog posts</h2>
 <ul>
 {% for post in site.tags[page.tag] %}
@@ -31,6 +42,7 @@ layout: base
   </li>
 {% endfor %}
 </ul>
+{% endif %}
 
 {% assign datasets = page.datasetDOI %}
 {% if datasets.size > 0 %}

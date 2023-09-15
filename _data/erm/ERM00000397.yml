@@ -2,4 +2,4 @@ title: "Material: ERM00000397"
 type: ChemicalSubstance
 id: ERM00000397
 tag: erm:ERM00000397
-rdfs:type: owl:Thing
+a: owl:Thing
