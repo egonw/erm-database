@@ -1,6 +1,6 @@
 ---
 layout: page
-title: eNanoMapper Ontology
+title: ENMO - ontology
 permalink: /enmo/
 ---
 <div class="tag-cloud">
@@ -9,12 +9,22 @@ permalink: /enmo/
 {% assign enmo = enmo_hash[1] %}
   <li>
     <a href="{{ enmo.URI }}">
-      {{ enmo.label }}
-    </a>
+      {{ enmo.label }} </a>  ({{ enmo.curie }})
+      <ul>
+        
+        {% for erm_hash in site.data.erm %}
+        
+          {% assign erm = erm_hash[1] %}
+          {% if enmo.curie == erm.a %}
+        <li>
+          <a href="/erm-database/substance/{{ erm.id | replace: 'ERM', 'ERM/' }}"> {{ erm.id }} </a>
+        </li>
+          {% endif %}
+        
+        {% endfor %}
+        </ul>
+    
   </li>
 {% endfor %}
 </ul>
 </div>
-
-
-<!-- TODO script needs to capture hierarchy. ontology terms will be added to _data from the ontology, with relevant fields and predicates. Href not to URI but to a collection of ERMs with the same annotation --!>
