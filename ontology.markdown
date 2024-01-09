@@ -17,7 +17,7 @@ permalink: /enmo/
           {% assign erm = erm_hash[1] %}
           {% if enmo.curie == erm.a %}
         <li>
-          <a href="/erm-database/substance/{{ erm.id | replace: 'ERM', 'ERM/' }}"> {{ erm.id }} </a>
+          <a href="/erm-database/substance/{{ erm.id | replace: 'ERM', 'ERM/' }}"> {{ erm.id | replace: 'ERM', 'erm:ERM'}} </a>
         </li>
           {% endif %}
         
