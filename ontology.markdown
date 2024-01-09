@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ENMO - ontology
+title: eNM Ontology
 permalink: /enmo/
 ---
 <div class="tag-cloud">
