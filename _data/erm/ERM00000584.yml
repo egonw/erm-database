@@ -4,6 +4,6 @@ id: ERM00000584
 chemicalComposition: ZnO
 tags: doi:10.5281/ZENODO.7990214
 datasetDOI: [10.5281/ZENODO.7990214]
-a: owl:Thing
+a: npo:NPO_1542
 tag: erm:ERM00000584
 sameAs: [RiskGONE NM 20]
