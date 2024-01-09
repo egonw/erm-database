@@ -42,30 +42,38 @@ layout: base
         {% capture tag_name %}{{ tag }}{% endcapture %}
         {% assign type = "tag" %} <!-- failsafe -->
         {% assign icon = "tag" %}
+        {% assign href = type | append:'/' | append: tag_name | relative_url %}
       {% else %}
         {% capture tag_name %}{{ check[1] }}{% endcapture %}
         {% if check[0] == "inchikey" %}
           {% assign type = "molecule" %}
           {% assign icon = "flask-vial" %}
+          {% assign href = type | append:'/' | append: tag_name | relative_url %}
         {% elsif check[0] == "substance" %}
           {% assign type = "substance" %}
           {% assign icon = "flask-vial" %}
+          {% assign href = type | append:'/' | append: tag_name | relative_url %}
         {% elsif check[0] == "erm" %}
           {% assign type = "substance" %}
           {% assign icon = "flask-vial" %}
+          {% assign erm_num = tag_name | replace: 'ERM', '' %}
+          {% assign href = type | append: '/ERM/' | append: erm_num | relative_url %}
+          {% assign tag_name = "erm:" | append: tag_name %}
         {% elsif check[0] == "justdoi" %}
           {% assign type = "skip" %}
         {% elsif check[0] == "doi" %}
           {% assign type = "work" %}
           {% assign icon = "file" %}
+          {% assign href = type | append:'/' | append: tag_name | relative_url %}
         {% else %}
           {% assign type = "tag" %} <!-- failsafe -->
           {% assign icon = "tag" %}
+          {% assign href = type | append:'/' | append: tag_name | relative_url %}
         {% endif %}
       {% endif %}
       {% if type != "skip" %}
       <i class="fa-solid fa-{{ icon }}"></i>
-      <a href="{{ type | append:'/' | append: tag_name | relative_url }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
+      <a href="{{ href }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
       {% endif %}
     {% endfor %}
     </span>
