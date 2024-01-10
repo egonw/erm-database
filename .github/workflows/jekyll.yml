@@ -3,13 +3,15 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+# Note: added step to capitalize the ERMs
+# Note: if deploy fails, remove deployment branches and tags restrictions for the environment github-pages from /erm-database/settings/environments
+
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+name: Custom Deploy Jekyll site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["data-setup"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -47,17 +49,21 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: fix capitalization
+      - name: fix capitalization for ERM* pages
+        env:
+            JEKYLL_ENV: production
         run: |
             # Navigate to the directory containing the erm
-            cd /substance/erm
+            cd _site/substance/erm
+            echo before:
+            ls
             
             # Loop through all files containing 'erm*'
             for file in erm*; do
                 # Check if the file exists
                 if [ -e "$file" ]; then
-                    # Create the new file name with 'ERM*'
-                    new_name=$(echo "$file" | sed 's/erm*/ERM*/')
+                    # Create the new file name with 'ERM'
+                    new_name=$(echo "$file" | sed 's/erm/ERM/')
 
                     # Rename the file
                     mv "$file" "$new_name"
@@ -65,6 +71,8 @@ jobs:
                     echo "Renamed: $file to $new_name"
                 fi
             done 
+            echo after:
+            ls
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
@@ -80,3 +88,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+    permissions:
+     contents: read
+     pages: write
+     id-token: write
