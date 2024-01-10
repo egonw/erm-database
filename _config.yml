@@ -25,6 +25,6 @@ tags:
 page_gen:
 - data: "erm"
   template: "substance"
-  dir: "substance/ERM/"
-  name_expr: "record['id'].sub('ERM', '')"
+  dir: "substance/erm/"
+  name_expr: "record['id']"
   title_expr: "record['title']"

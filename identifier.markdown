@@ -9,7 +9,7 @@ permalink: /identifiers/
 {% for erm_hash in site.data.erm %}
 {% assign erm = erm_hash[1] %}
   <li>
-    <a href="/erm-database/substance/{{ erm.id | replace: 'ERM', 'ERM/' }}">
+    <a href="/erm-database/substance/erm/{{ erm.id }}">
       {{ erm.id  | replace: 'ERM', 'erm:ERM' }}
     </a>
   </li>
