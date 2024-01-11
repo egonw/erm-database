@@ -12,7 +12,7 @@ Because the registry merely registers the identifier, it allows ERM identifiers 
 before details are disclosed or measured. For exameple, a TiO<sub>2</sub> material is planned
 in a study but not syntesized or ordered yet, and the exact chemistry and biological properties
 are not yet known. A second example is when you wish to publish about a new material (e.g. efficacy)
-and you will not disclose the chemical identity yet. [ERM00000416](/erm-database/substance/ERM/00000416)
+and you will not disclose the chemical identity yet. [ERM00000416](/erm-database/substance/erm/ERM00000416)
 is an example ERM identifier.
 
 ## Powered by
