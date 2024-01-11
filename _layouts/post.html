@@ -56,7 +56,7 @@ layout: base
         {% elsif check[0] == "erm" %}
           {% assign type = "substance" %}
           {% assign icon = "flask-vial" %}
-          {% assign href = type | append: '/ERM/' | append: tag_name | relative_url %}
+          {% assign href = type | append: '/erm/' | append: tag_name | relative_url %}
           {% assign tag_name = "erm:" | append: tag_name %}
         {% elsif check[0] == "justdoi" %}
           {% assign type = "skip" %}
