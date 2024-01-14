@@ -13,11 +13,9 @@ image: https://i0.wp.com/cloud.nanosolveit.eu/wp-content/uploads/2021/07/400dpiL
 Earlier this summer, NanoSolveIT deposited a number of datasets with physicochemical properties
 of nanomaterials, for various materials:
 
-* `erm:ERM00000397`
+* CeO<sub>2</sub>/Co<sub>3</sub>O<sub>4</sub>: `erm:ERM00000397`
 * Ce<sub>0.75</sub>Zr<sub>0.25</sub>O<sub>2</sub>: `erm:ERM00000400`, `erm:ERM00000442`, `erm:ERM00000421`
 * Ce<sub>0.1</sub>Zr<sub>0.9</sub>O<sub>2</sub>: `erm:ERM00000403`, `erm:ERM00000445`, `erm:ERM00000424`
-* `erm:ERM00000409`
-* `erm:ERM00000416`
-* `erm:ERM00000582`
-* `erm:ERM00000583`
-* `erm:ERM00000584`
+* Fe<sub>3</sub>O<sub>4</sub>: `erm:ERM00000409`, `erm:ERM00000583`
+* ZnO: `erm:ERM00000416`, `erm:ERM00000584`
+* Au: `erm:ERM00000582`
