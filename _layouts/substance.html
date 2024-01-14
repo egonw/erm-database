@@ -48,6 +48,24 @@ layout: base
 </ul>
 {% endif %}
 
+{% if page.otherLinks.size > 0 %}
+<h2 class="tag-title">Other</h2>
+<ul>
+{% for link in page.otherLinks %}
+  {% if link.lang %}
+  <li lang="{{post.lang}}">
+  {% else %}
+  <li>
+  {% endif %}
+    <a href="{{ link.url }}">{{ link.title }}</a>
+    {% if link.type %}({{ link.type }}){% endif %}
+  </li>
+{% endfor %}
+</ul>
+{% endif %}
+
+
+
 {% assign datasets = page.datasetDOI %}
 {% if datasets.size > 0 %}
 <h2 class="tag-title">Datasets</h2>
