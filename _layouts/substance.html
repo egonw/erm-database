@@ -56,7 +56,7 @@ layout: base
 
 {% assign journalArticles = page.journalArticleDOI | split: ' ' %}
 {% if journalArticles.size > 0 %}
-<h2 class="tag-title">Datasets</h2>
+<h2 class="tag-title">Articles</h2>
 <ul>
 {% for journalArticle in journalArticles %}
   <li><a href="../../work/{{ dataset }}" />{{ journalArticle }}</li></a>
@@ -86,15 +86,17 @@ layout: base
 
 </script>
 {% assign scholarlyArticles = page.scholarlyArticleDOI | split: ' ' %}
-{% if scholarlyArticles.size > 0 %}
+{% assign datasetArticles = page.datasetDOI | split: ' ' %}
+{% assign doiCounts = scholarlyArticles.size | plus: datasetArticles.size %}
+{% if doiCounts > 0 %}
   <div class="post-footer" id="bibliographyDIV" style="visibility: hidden">
   <b class="post">Further reading</b>
   <p class="post-meta" id="bibliography"></p>
   </div>
   <script>
-
 var articleString = '{{ scholarlyArticles }}';
-var dois = articleString.split(',');
+var datasetString = '{{ datasetArticles }}';
+var dois = articleString.split(',').concat(datasetString.split(','));
 const cite = new Cite()
 if (dois.length > 0) {
   Cite.async(dois).then(function(cite) {
