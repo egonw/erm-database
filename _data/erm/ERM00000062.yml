@@ -1,0 +1,16 @@
+title: "Material: ERM00000062"
+type: ChemicalSubstance
+id: ERM00000062
+tag: erm:ERM00000062
+chemicalComposition: TiO2
+tags: erm:ERM00000062
+cas: 1317-70-0
+supplier:
+ - name: Sigma Aldrich
+   code: 637254
+   batch: MKCK-4358
+a: npo:NPO_1486 # TODO It is not technically a nanoparticle but a nanoparticle 
+otherLinks:
+ - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
+   title: Report on the final harmonised SOPs used to propose amendments to the existing OECD TGs
+   type: pdf

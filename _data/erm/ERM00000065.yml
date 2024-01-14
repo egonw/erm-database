@@ -1,0 +1,16 @@
+title: "Material: ERM00000065"
+type: ChemicalSubstance
+id: ERM00000065
+tag: erm:ERM00000065
+chemicalComposition: ZnO
+tags: erm:ERM00000065
+cas: 1314-13-2
+supplier:
+ - name: JRC
+   code: JRCNM01101a
+a: npo:NPO_1542
+otherLinks:
+ - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
+   title: Report on the final harmonised SOPs used to propose amendments to the existing OECD TGs
+   type: pdf
+sameAs: [JRCNM01101a]

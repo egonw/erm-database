@@ -1,0 +1,15 @@
+title: "Material: ERM00000325"
+type: ChemicalSubstance
+id: ERM00000325
+tag: erm:ERM00000325
+chemicalComposition: C
+tags: erm:ERM00000325
+cas: 1314-13-2
+supplier:
+ - name: Nanocyl
+   code: AQUACYLTM AQ0303
+a: npo:NPO_354
+otherLinks:
+ - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
+   title: Report on the final harmonised SOPs used to propose amendments to the existing OECD TGs
+   type: pdf

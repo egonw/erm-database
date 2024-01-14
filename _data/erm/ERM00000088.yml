@@ -1,0 +1,14 @@
+title: "Material: ERM00000088"
+type: ChemicalSubstance
+id: ERM00000088
+tag: erm:ERM00000088
+chemicalComposition: CuO
+tags: erm:ERM00000088
+cas: 1317-38-0
+supplier:
+ - name: PlasmaChem
+a: npo:NPO_1544
+otherLinks:
+ - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
+   title: Report on the final harmonised SOPs used to propose amendments to the existing OECD TGs
+   type: pdf
