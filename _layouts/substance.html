@@ -15,16 +15,20 @@ layout: base
 
 <p class="post-meta"><i class="fa-solid fa-flask-vial"></i> {{ page.tag }}</p>
 
-{% if page.chemicalComposition %}<p class="post-meta">Chemical composition: {{ page.chemicalComposition }}</p>{% endif %}
+<p class="post-meta">
+{% if page.chemicalComposition %}Chemical composition: {{ page.chemicalComposition }}<br />{% endif %}
+{% if page.cas %}CAS Registry Number: {{ page.cas }}<br />{% endif %}
+{% if page.sameAs %}Same as: {% for same in page.sameAs %}{{ same }} {% endfor %}<br />{% endif %}
 
 <!-- TODO: Compare the declared ontology class against the classes in _data/enmo and provide the link -->
 {% if page.a %}
   {% assign type = page.a | replace: ':', '' %}
   {% assign enmo_data = site.data.enmo[type] %}
   {% if enmo_data %}
-    <p class="post-meta">Ontology class:  <a href="{{ site.data.enmo[type].URI }}">{{ page.a }}</p></a>
+    Ontology class:  <a href="{{ site.data.enmo[type].URI }}">{{ page.a }}</a><br />
   {% endif %}
 {% endif %}
+</p>
 
 {% assign blogposts = site.tags[page.tag] %}
 {% if blogposts.size > 0 %}
