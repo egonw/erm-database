@@ -3,5 +3,5 @@ type: ChemicalSubstance
 id: ERM00000446
 chemicalComposition: ZrO2
 datasetDOI: [10.5281/zenodo.7965537]
-a: owl:Thing
+a: enm:ENM_9000241
 tag: erm:ERM00000446
