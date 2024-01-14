@@ -17,7 +17,7 @@ layout: base
 
 <p class="post-meta">
 {% if page.chemicalComposition %}Chemical composition: {{ page.chemicalComposition }}<br />{% endif %}
-{% if page.cas %}CAS Registry Number: {{ page.cas }}<br />{% endif %}
+{% if page.cas %}CAS Registry Number: <a href="https://commonchemistry.cas.org/detail?cas_rn={{ page.cas }}">{{ page.cas }}</a><br />{% endif %}
 {% if page.sameAs %}Same as: {% for same in page.sameAs %}{{ same }} {% endfor %}<br />{% endif %}
 
 <!-- TODO: Compare the declared ontology class against the classes in _data/enmo and provide the link -->
