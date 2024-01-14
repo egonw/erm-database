@@ -3,5 +3,6 @@ title: "Material: ERM00000442"
 type: ChemicalSubstance
 id: ERM00000442
 chemicalComposition: Ce0.75Zr0.25O2
-a: owl:Thing
+datasetDOI: [10.5281/zenodo.7966134]
+a: npo:NPO_707
 tag: erm:ERM00000442
