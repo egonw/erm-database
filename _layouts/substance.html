@@ -61,6 +61,7 @@ layout: base
   <li>
   {% endif %}
     <a href="{{ link.url }}">{{ link.title }}</a>
+    {% if link.date %}({{ link.date | date_to_string }}){% endif %}
     {% if link.type %}({{ link.type }}){% endif %}
   </li>
 {% endfor %}
