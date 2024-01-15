@@ -15,7 +15,7 @@ The new data is stored under [`_data`](https://github.com/NanoCommons/erm-databa
 The `eNM Ontology` page contains a taxonomy of the ERM materials, divided by class:
 
 
-<img src="/erm-database/assets/enmo-ontology.png" width="450"/>
+<img src="/erm-database/assets/enmo_ontology.png" width="450"/>
 
 
 An additional `Content table` page allows to browse the data:
