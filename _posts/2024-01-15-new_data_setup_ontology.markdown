@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New data setup for the ERM Identifier Database"
-date:   2023-01-15
+date:   2024-01-15
 tags: nanocommons site ENMO
 image: https://github.com/NanoCommons/erm-database/blob/post-new-data-setup/assets/screenshot_site_ontology.png
 ---
