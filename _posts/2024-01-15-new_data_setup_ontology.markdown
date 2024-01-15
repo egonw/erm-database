@@ -3,7 +3,7 @@ layout: post
 title:  "New data setup for the ERM Identifier Database"
 date:   2024-01-15
 tags: nanocommons site ENMO
-image: /assets/screenshot_site_ontology.png
+image: /erm-database/assets/screenshot_site_ontology.png
 ---
 The ERM Identifier Database now uses the [`'jekyll-datapage-generator'`](https://github.com/avillafiorita/jekyll-datapage_gen) plugin to store the site data and generate the website. Moreover, the eNanoMapper ontology is now used to identify material classes.
 
