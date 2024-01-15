@@ -62,7 +62,14 @@ layout: base
   {% endif %}
     <a href="{{ link.url }}">{{ link.title }}</a>
     {% if link.date %}({{ link.date | date_to_string }}){% endif %}
-    {% if link.type %}({{ link.type }}){% endif %}
+    {% if link.type %}
+      {% assign format = link.type %}
+      {% if format == "pdf" %}
+        <i class="fa-solid fa-file-pdf"></i>
+      {% else %}
+        ({{ link.type }})
+      {% endif %}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
