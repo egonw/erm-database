@@ -33,6 +33,27 @@ layout: base
 {% endif %}
 </p>
 
+<!-- the Bioschemas annotation -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ChemicalSubstance",
+  "@id": "{{ page.url | prepend: 'https://nanocommons.github.io/identifiers/registry#' }}",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@type": "CreativeWork",
+    "@id": "https://bioschemas.org/profiles/ChemicalSubstance/v0.4-RELEASE"
+  },
+  "url": "{{ page.url | prepend: site.url }}",
+  "name": "{{ clean_title }}",
+  "description": "Chemical substance page for {{ clean_title }} with possible blog posts about when information became available for the substance.",{% if page.chemicalComposition %}
+  "chemicalComposition": "{{ page.chemicalComposition }}",{% endif %}
+  "identifier": [
+    "https://nanocommons.github.io/identifiers/registry#{{ clean_title }}", "erm:{{ clean_title }}", "{{ clean_title }}"
+  ]
+}
+
+</script>
+
 {% assign blogposts = site.tags[page.tag] %}
 {% if blogposts.size > 0 %}
 <h2 class="tag-title">Blog posts</h2>
@@ -50,6 +71,29 @@ layout: base
 {% endfor %}
 </ul>
 {% endif %}
+
+{% assign datasets = page.datasetDOI %}
+{% if datasets.size > 0 %}
+<h2 class="tag-title">Datasets</h2>
+<ul>
+{% for dataset in datasets %}
+<li><a href="../../work/{{ dataset }}" />{{ dataset }}</li></a>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign journalArticles = page.scholarlyArticleDOI | split: ' ' %}
+{% if journalArticles.size > 0 %}
+<h2 class="tag-title">Articles</h2>
+<ul>
+{% for journalArticle in journalArticles %}
+  <li><a href="../../work/{{ journalArticle }}" />{{ journalArticle }}</li></a>
+{% endfor %}
+</ul>
+{% endif %}
+
+</div>
+
 
 {% if page.otherLinks.size > 0 %}
 <h2 class="tag-title">Other</h2>
@@ -76,48 +120,6 @@ layout: base
 {% endif %}
 
 
-
-{% assign datasets = page.datasetDOI %}
-{% if datasets.size > 0 %}
-<h2 class="tag-title">Datasets</h2>
-<ul>
-{% for dataset in datasets %}
-<li><a href="../../work/{{ dataset }}" />{{ dataset }}</li></a>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% assign journalArticles = page.scholarlyArticleDOI | split: ' ' %}
-{% if journalArticles.size > 0 %}
-<h2 class="tag-title">Articles</h2>
-<ul>
-{% for journalArticle in journalArticles %}
-  <li><a href="../../work/{{ journalArticle }}" />{{ journalArticle }}</li></a>
-{% endfor %}
-</ul>
-{% endif %}
-
-</div>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ChemicalSubstance",
-  "@id": "{{ page.url | prepend: 'https://nanocommons.github.io/identifiers/registry#' }}",
-  "http://purl.org/dc/terms/conformsTo": {
-    "@type": "CreativeWork",
-    "@id": "https://bioschemas.org/profiles/ChemicalSubstance/v0.4-RELEASE"
-  },
-  "url": "{{ page.url | prepend: site.url }}",
-  "name": "{{ clean_title }}",
-  "description": "Chemical substance page for {{ clean_title }} with possible blog posts about when information became available for the substance.",{% if page.chemicalComposition %}
-  "chemicalComposition": "{{ page.chemicalComposition }}",{% endif %}
-  "identifier": [
-    "https://nanocommons.github.io/identifiers/registry#{{ clean_title }}", "erm:{{ clean_title }}", "{{ clean_title }}"
-  ]
-}
-
-</script>
 {% assign scholarlyArticles = page.scholarlyArticleDOI | split: ' ' %}
 {% assign datasetArticles = page.datasetDOI | split: ' ' %}
 {% assign doiCounts = scholarlyArticles.size | plus: datasetArticles.size %}
