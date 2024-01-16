@@ -87,12 +87,12 @@ layout: base
 </ul>
 {% endif %}
 
-{% assign journalArticles = page.journalArticleDOI | split: ' ' %}
+{% assign journalArticles = page.scholarlyArticleDOI | split: ' ' %}
 {% if journalArticles.size > 0 %}
 <h2 class="tag-title">Articles</h2>
 <ul>
 {% for journalArticle in journalArticles %}
-  <li><a href="../../work/{{ dataset }}" />{{ journalArticle }}</li></a>
+  <li><a href="../../work/{{ journalArticle }}" />{{ journalArticle }}</li></a>
 {% endfor %}
 </ul>
 {% endif %}
@@ -127,9 +127,10 @@ layout: base
   <p class="post-meta" id="bibliography"></p>
   </div>
   <script>
-var articleString = '{{ scholarlyArticles }}';
-var datasetString = '{{ datasetArticles }}';
-var dois = articleString.split(',').concat(datasetString.split(','));
+var articleString = '{{ page.scholarlyArticleDOI }}';
+var datasetString = '{{ page.datasetDOI }}';
+var dois = articleString.split(' ').concat(datasetString.split(' '));
+console.log(dois)
 const cite = new Cite()
 if (dois.length > 0) {
   Cite.async(dois).then(function(cite) {
