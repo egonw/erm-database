@@ -9,7 +9,7 @@ supplier:
  - name: Sigma Aldrich
    code: 721077
    batch: MKCK-4155
-scholarlyArticleDOI: 10.3389/ftox.2022.981701 10.1016/j.chemosphere.2023.140975
+scholarlyArticleDOI: 10.3389/FTOX.2022.981701 10.1016/J.CHEMOSPHERE.2023.140975
 a: npo:NPO_1542 # TODO It is not technically a nanoparticle but a nanoparticle 
 otherLinks:
  - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf

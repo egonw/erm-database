@@ -2,13 +2,13 @@ title: "Material: ERM00000064"
 type: ChemicalSubstance
 id: ERM00000064
 tag: erm:ERM00000064
-tags: erm:ERM00000064 10.3389/ftox.2022.981701
+tags: erm:ERM00000064 10.3389/FTOX.2022.981701
 supplier:
  - name: JRC
    code: 721077
    batch: JRCNM01005a
 chemicalComposition: TiO2
-scholarlyArticleDOI: 10.3389/ftox.2022.981701 10.1016/j.chemosphere.2023.140975
+scholarlyArticleDOI: 10.3389/FTOX.2022.981701 10.1016/J.CHEMOSPHERE.2023.140975
 a: npo:NPO_1486
 otherLinks:
  - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
