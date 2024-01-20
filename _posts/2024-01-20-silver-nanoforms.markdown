@@ -3,7 +3,7 @@ layout: post
 title:  "Silver nanoforms with ERM identifiers"
 date:   2024-01-20
 tags: silver erm:ERM00000559 erm:ERM00000552 erm:ERM00000549 erm:ERM00000548 erm:ERM00000575 erm:ERM00000580
-  doi:10.1021/acsanm.3c00173
+  doi:10.1021/ACSANM.3C00173
 image: /erm-database/assets/silver_nanoforms_acs.png
 author: Egon Willighagen
 ---
