@@ -57,7 +57,7 @@ jobs:
             cd _site/substance/erm
             echo before:
             ls
-            
+
             # Loop through all files containing 'erm*'
             for file in erm*; do
                 # Check if the file exists
@@ -65,12 +65,12 @@ jobs:
                     # Create the new file name with 'ERM'
                     new_name=$(echo "$file" | sed 's/erm/ERM/')
 
-                    # Rename the file
-                    mv "$file" "$new_name"
+                    # Rename the file and fix the canonical URL
+                    cat "$file" | sed -e 's/substance\/erm\/erm00000062.html/substance\/erm\/ERM00000062.html/' > "$new_name"
 
                     echo "Renamed: $file to $new_name"
                 fi
-            done 
+            done
             echo after:
             ls
       - name: Upload artifact
