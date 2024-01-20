@@ -63,15 +63,27 @@ doi: doi:${tag}
 // Next, substances with an ERM identifier
 tags.grep{ it.toString().startsWith("erm:") }.each() { tag ->
   tag = tag.substring(4).toUpperCase()
-  file = new File("substance/${tag}.markdown")
+  file = new File("_data/erm/${tag}.yml")
   if (!file.exists()) {
     println "Creating $file"
     file.text = """---
-layout: substance
 title: "Material: ${tag}"
 type: ChemicalSubstance
+id: ${tag}
 tag: erm:${tag}
+tags: erm:${tag}
 chemicalComposition: XXXX
+supplier:
+ - name:
+   code:
+   batch:
+scholarlyArticleDOI:
+a: npo:NPO_707
+otherLinks:
+ - url:
+   title:
+   date:
+   type: pdf
 ---
 """
   }
