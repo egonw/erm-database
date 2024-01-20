@@ -15,11 +15,14 @@ otherLinks:
  - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
    title: Report on the final harmonised SOPs used to propose amendments to the existing OECD TGs
    date: 2021-12-29
-   type: pdf
+   type: deliverable
+   format: pdf
  - url: https://www.sigmaaldrich.com/NL/en/sds/aldrich/721077
    title: SAFETY DATA SHEET - Sigma-Aldrich
-   type: pdf
+   type: other
+   format: pdf
  - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
    title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
    date: 2023-08-01
    type: poster
+   format: pdf

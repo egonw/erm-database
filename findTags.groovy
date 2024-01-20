@@ -83,7 +83,8 @@ otherLinks:
  - url:
    title:
    date:
-   type: pdf
+   type: report deliverable poster slidedeck other
+   format: pdf
 ---
 """
   }
