@@ -5,6 +5,7 @@ date:   2024-01-20
 tags: silver erm:ERM00000559 erm:ERM00000552 erm:ERM00000549 erm:ERM00000548 erm:ERM00000575 erm:ERM00000580
   doi:10.1021/acsanm.3c00173
 image: /erm-database/assets/silver_nanoforms_acs.png
+author: Egon Willighagen
 ---
 
 About a year ago, [Furxhi](https://orcid.org/0000-0002-2263-0279) <i>et al.</i> published an article about six silver

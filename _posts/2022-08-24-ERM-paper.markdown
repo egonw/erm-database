@@ -4,6 +4,7 @@ title:  "Published: 'European Registry of Materials: global, unique identifiers 
 date:   2022-10-18
 tags: doi:10.1186/S13321-022-00614-7 riskgone sbd4nano nanosolveit nanocommons gov4nano
 image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13321-022-00614-7/MediaObjects/13321_2022_614_Figa_HTML.png?as=webp
+author: Egon Willighagen
 ---
 
 The paper that introduces and describes the European Registry of Materials (ERM) identifier has now been published.

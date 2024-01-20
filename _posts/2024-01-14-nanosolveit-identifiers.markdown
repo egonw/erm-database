@@ -6,6 +6,7 @@ tags: nanosolveit erm:ERM00000414 erm:ERM00000435 erm:ERM00000456 doi:10.5281/ZE
   erm:ERM00000399 doi:10.5281/ZENODO.7986673
   doi:10.5281/ZENODO.7965537 erm:ERM00000446 erm:ERM00000425 erm:ERM00000404
 image: https://i0.wp.com/cloud.nanosolveit.eu/wp-content/uploads/2021/07/400dpiLogoCropped-1.png
+author: Egon Willighagen
 ---
 
 The datasets NanoSolveIT [deposited this summer](https://nanocommons.github.io/erm-database/2023/08/29/nanosolveit-identifiers.html)

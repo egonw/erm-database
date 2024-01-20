@@ -8,6 +8,7 @@ tags: nanosolveit erm:ERM00000416 doi:10.5281/ZENODO.7940162 erm:ERM00000583 doi
   erm:ERM00000445 erm:ERM00000424 doi:10.5281/ZENODO.7965603 erm:ERM00000400 erm:ERM00000442
   erm:ERM00000421 doi:10.5281/ZENODO.7966134
 image: https://i0.wp.com/cloud.nanosolveit.eu/wp-content/uploads/2021/07/400dpiLogoCropped-1.png
+author: Egon Willighagen
 ---
 
 Earlier this summer, NanoSolveIT deposited a number of datasets with physicochemical properties
