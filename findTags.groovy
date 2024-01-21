@@ -52,7 +52,7 @@ tags.grep{ it.toString().startsWith("doi:") }.each() { tag ->
     file.text = """---
 layout: work
 title: "Work: XXXX"
-type: XXXX
+type: Dataset ScholarlyArticle
 tag: doi:${tag}
 doi: doi:${tag}
 ---
@@ -78,6 +78,7 @@ supplier:
    code:
    batch:
 scholarlyArticleDOI:
+datasetDOI:
 a: npo:NPO_707
 otherLinks:
  - url:
