@@ -25,3 +25,4 @@ This website is further powered by (in random order):
 * HTML
 * DOI, CrossRef
 * [citation.js](https://citation.js.org/) (doi:[10.7717/peerj-cs.214](https://doi.org/10.7717/peerj-cs.214))
+* [nanoviz-svg](https://github.com/enanomapper/nanoviz-svg)
