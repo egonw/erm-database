@@ -73,6 +73,14 @@ jobs:
             done
             echo after:
             ls
+      - name: fix the URLs in the sitemap.xml
+        env:
+            JEKYLL_ENV: production
+        run: |
+            # Navigate to the directory containing the sitemap.xml
+            cd _site
+            cat sitemap.xml | sed -e 's/\/substance\/erm\/erm0/\.substance\/erm\/ERM0/' > sitemap2.xml
+            mv sitemap2.xml sitemap.xml
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
