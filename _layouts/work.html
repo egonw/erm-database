@@ -45,6 +45,25 @@ if (dois.length > 0) {
 </p>
 
 <p class="post">
+<h2>Materials</h2>
+<p>
+{% if page.tags.size > 0 %}
+  {% assign tags = page.tags | split:' ' %}
+  {% for tag in tags %}
+    {% assign check = tag | split:':' %}
+    {% if check.size > 1 %}
+      {% if check[0] == "erm" %}
+        {% capture ermid %}{{ check[1] }}{% endcapture %}
+        <span>
+          <a href="{{ ermid | replace: 'ERM', 'erm/ERM' | prepend: '/substance/' | relative_url }}">{{ ermid | prepend: "erm:" }}</a>
+        </span>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+</p>
+
+{% if site.tags[page.tag] %}
 <h2>Blog posts</h2>
 <ul>
 {% for post in site.tags[page.tag] %}
@@ -59,6 +78,7 @@ if (dois.length > 0) {
   </li>
 {% endfor %}
 </ul>
+{% endif %}
 </div>
 </p>
 
