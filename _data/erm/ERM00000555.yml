@@ -1,0 +1,12 @@
+---
+title: "Material: ERM00000555"
+type: ChemicalSubstance
+id: ERM00000555
+tag: erm:ERM00000555
+tags: erm:ERM00000555
+chemicalComposition: Ag
+supplier:
+ - name: ISTEC CNR
+a: npo:NPO_707
+datasetDOI: 10.5281/ZENODO.7335039
+---
