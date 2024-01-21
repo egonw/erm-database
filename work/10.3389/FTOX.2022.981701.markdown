@@ -4,4 +4,5 @@ title: "Work: The alamar blue assay in the context of safety testing of nanomate
 type: ScholarlyArticle
 tag: doi:10.3389/FTOX.2022.981701
 doi: doi:10.3389/FTOX.2022.981701
+tags: erm:ERM00000063 erm:ERM00000064
 ---

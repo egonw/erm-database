@@ -4,4 +4,5 @@ title: "Work: Physico-chemical characterization of sterile Fe3O4 nanoparticles b
 type: Dataset
 tag: doi:10.5281/ZENODO.7990302
 doi: 10.5281/ZENODO.7990302
+tags: nanosolveit erm:ERM00000583
 ---
