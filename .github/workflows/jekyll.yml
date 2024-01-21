@@ -79,7 +79,7 @@ jobs:
         run: |
             # Navigate to the directory containing the sitemap.xml
             cd _site
-            cat sitemap.xml | sed -e 's/\/substance\/erm\/erm0/\.substance\/erm\/ERM0/' > sitemap2.xml
+            cat sitemap.xml | sed -e 's/\/substance\/erm\/erm0/\/substance\/erm\/ERM0/' > sitemap2.xml
             mv sitemap2.xml sitemap.xml
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
