@@ -11,6 +11,21 @@ layout: base
 {% assign substance = substance_split[1] %}
 
 <div class="post">
+{% if page.nanoviz %}
+<div id="nanoviz-container" style="float: right; width: 200px"></div>
+<script>
+  window.onload = function () {
+    const element = document.getElementById('nanoviz-container')
+    element.innerHTML = nanovizSvg.nanoMaterial(
+      [
+      {% for link in page.nanoviz %}
+        {label: '{{ link.label }}'},
+      {% endfor %}
+      ]
+    )
+  }
+</script>
+{% endif %}
 <h1 class="tag-title">{{ clean_title }}</h1>
 
 <p class="post-meta">

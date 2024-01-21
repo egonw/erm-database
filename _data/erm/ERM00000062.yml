@@ -3,6 +3,8 @@ type: ChemicalSubstance
 id: ERM00000062
 tag: erm:ERM00000062
 chemicalComposition: TiO2
+nanoviz:
+  - label: TiO2
 tags: erm:ERM00000062
 cas: 1317-70-0
 supplier:
