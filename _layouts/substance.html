@@ -90,6 +90,17 @@ layout: base
 {% endif %}
 
 
+{% assign datasets = page.datasetDOI %}
+{% if datasets.size > 0 %}
+<h2 class="tag-title">Datasets</h2>
+<ul>
+{% for dataset in datasets %}
+<li><a href="../../work/{{ dataset }}" />{{ dataset }}</li></a>
+{% endfor %}
+</ul>
+{% endif %}
+
+
 
 {% assign databases = "" %}
 {% for link in page.otherLinks %}
