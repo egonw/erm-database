@@ -1,4 +1,3 @@
----
 title: "Material: ERM00000413"
 type: ChemicalSubstance
 id: ERM00000413
@@ -7,4 +6,11 @@ tags: erm:ERM00000413
 chemicalComposition: TiO2
 datasetDOI: 10.5281/zenodo.7941567
 a: npo:NPO_1486
----
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
+    title: NanoMILE nanomaterial identifiers
+    date: 20230423
+    type: report
+    format: html
+
+This material also has the NanoMILE identifier [NP00255](https://nanocommons.github.io/specifications/nanomile/).

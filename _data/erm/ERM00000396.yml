@@ -7,3 +7,11 @@ nanoviz:
 datasetDOI: [10.5281/zenodo.7966245]
 a: enm:ENM_9000020
 tag: erm:ERM00000396
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
+    title: NanoMILE nanomaterial identifiers
+    date: 20230423
+    type: report
+    format: html
+
+This material also has the NanoMILE identifier [NP00436](https://nanocommons.github.io/specifications/nanomile/).

@@ -5,3 +5,11 @@ chemicalComposition: Ce0.75Zr0.25O2
 datasetDOI: [10.5281/zenodo.7966134]
 a: npo:NPO_707
 tag: erm:ERM00000400
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
+    title: NanoMILE nanomaterial identifiers
+    date: 20230423
+    type: report
+    format: html
+
+This material also has the NanoMILE identifier [NP00194](https://nanocommons.github.io/specifications/nanomile/).
