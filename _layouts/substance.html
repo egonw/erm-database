@@ -117,7 +117,11 @@ layout: base
       {% for site_database_hash in site.data.databases %}
         {% assign site_database = site_database_hash[1] %}
         {% if database == site_database.title %}
-          <li>{{ database }}</li>
+          {% if site_database.url_pattern %}
+            <li><a href="{{ site_database.url_pattern | replace: "^1^", clean_title }}">{{ database }}</a></li>
+          {% else %}
+            <li>{{ database }}</li>
+          {% endif %}
         {% endif %}
       {% endfor %}      
     {% endfor %}
