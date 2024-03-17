@@ -1,6 +1,18 @@
+---
 title: "Material: ERM00000414"
 type: ChemicalSubstance
 id: ERM00000414
 datasetDOI: [10.5281/zenodo.7966355]
 a: enm:ENM_8000234
 tag: erm:ERM00000414
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
+    title: NanoMILE nanomaterial identifiers
+    date: 2023-04-23
+    type: report
+    format: html
+sameAs:
+  - NP00256
+---
+
+This material also has the NanoMILE identifier [NP00256](https://nanocommons.github.io/specifications/nanomile/).

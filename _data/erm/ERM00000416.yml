@@ -1,5 +1,6 @@
-layout: substance
+---
 title: "Material: ERM00000416"
+type: ChemicalSubstance
 id: ERM00000416
 tags: doi:10.5281/ZENODO.7940162 ERM00000416
 chemicalComposition: ZnO
@@ -8,3 +9,14 @@ nanoviz:
 datasetDOI: 10.5281/ZENODO.7940162
 a: npo:NPO_1542
 tag: erm:ERM00000416
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
+    title: NanoMILE nanomaterial identifiers
+    date: 2023-04-23
+    type: report
+    format: html
+sameAs:
+  - NP00438
+---
+
+This material also has the NanoMILE identifier [NP00438](https://nanocommons.github.io/specifications/nanomile/).

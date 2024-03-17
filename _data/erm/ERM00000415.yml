@@ -7,4 +7,14 @@ tags: erm:ERM00000415
 chemicalComposition: TiO2
 datasetDOI: 10.5281/ZENODO.7961318
 a: npo:NPO_1486
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
+    title: NanoMILE nanomaterial identifiers
+    date: 2023-04-23
+    type: report
+    format: html
+sameAs:
+  - NP00441
 ---
+
+This material also has the NanoMILE identifier [NP00441](https://nanocommons.github.io/specifications/nanomile/).
