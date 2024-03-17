@@ -1,0 +1,16 @@
+---
+title: "Material: ERM00000366"
+type: ChemicalSubstance
+id: ERM00000366
+tag: erm:ERM00000366
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
+    title: NanoMILE nanomaterial identifiers
+    date: 2023-04-23
+    type: report
+    format: html
+sameAs:
+  - NP00475
+---
+
+This material also has the NanoMILE identifier [NP00475](https://nanocommons.github.io/specifications/nanomile/).
