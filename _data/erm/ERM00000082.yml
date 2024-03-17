@@ -5,3 +5,9 @@ tag: erm:ERM00000082
 tags: erm:ERM00000082
 sameAs:
   - NRCWE-072
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2024/WD-nrcwe-20240317/
+    title: NRCWE nanomaterial identifiers
+    date: 20240317
+    type: report
+    format: html

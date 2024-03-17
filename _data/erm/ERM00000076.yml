@@ -5,3 +5,9 @@ tag: erm:ERM00000076
 tags: erm:ERM00000076
 sameAs:
   - NRCWE-066
+otherLinks:
+  - url: https://nanocommons.github.io/specifications/2024/WD-nrcwe-20240317/
+    title: NRCWE nanomaterial identifiers
+    date: 20240317
+    type: report
+    format: html
