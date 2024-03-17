@@ -1,3 +1,4 @@
+---
 title: "Material: ERM00000402"
 type: ChemicalSubstance
 id: ERM00000402
@@ -11,5 +12,8 @@ otherLinks:
     date: 20230423
     type: report
     format: html
+sameAs:
+  - NP00196
+---
 
 This material also has the NanoMILE identifier [NP00196](https://nanocommons.github.io/specifications/nanomile/).
