@@ -170,6 +170,16 @@ layout: base
 {% endif %}
 
 
+<h2 class="tag-title">Online searching</h2>
+<p>Additionally, you can search for ERM identifiers in the following resources, e.g.:
+<ul>
+  <li><a href="https://datasetsearch.research.google.com/search?query={{ clean_title }}">Google Dataset Search</a></li>
+  <li><a href="https://europepmc.org/search?query={{ clean_title }}">Europe PMC</a></li>
+  <li><a href="https://duckduckgo.com/?q=%22{{ clean_title }}%22">DuckDuckGo</a></li>
+</ul>
+</p>
+
+
 {% assign scholarlyArticles = page.scholarlyArticleDOI | split: ' ' %}
 {% assign datasetArticles = page.datasetDOI | split: ' ' %}
 {% assign doiCounts = scholarlyArticles.size | plus: datasetArticles.size %}
