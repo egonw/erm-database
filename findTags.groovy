@@ -55,6 +55,7 @@ title: "Work: XXXX"
 type: Dataset ScholarlyArticle
 tag: doi:${tag}
 doi: doi:${tag}
+url: https://doi.org/${tag}
 ---
 """
   }
