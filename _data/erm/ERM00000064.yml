@@ -29,6 +29,11 @@ otherLinks:
     format: pdf
   - databases:
       - RISKGONE
+  - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D4.4.pdf
+    title: Consolidated pre-validated guidance document on the determination of ENMs endotoxins content
+    date: 2021-12-29
+    type: deliverable
+    format: pdf
 cas: 13463-67-7
 sameAs:
   - JRCNM01005a
