@@ -1,0 +1,12 @@
+---
+title: "Material: ERM00000447"
+type: ChemicalSubstance
+id: ERM00000447
+tag: erm:ERM00000447
+tags: erm:ERM00000447
+chemicalComposition: Co3O4
+supplier:
+ - name: Promethean Particles
+datasetDOI: 10.5281/ZENODO.7941248
+a: enm:ENM_9000254
+---
