@@ -3,12 +3,14 @@ title: "Material: ERM00000407"
 type: ChemicalSubstance
 id: ERM00000407
 tag: erm:ERM00000407
+a: npo:NPO_707
 otherLinks:
   - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
     title: NanoMILE nanomaterial identifiers
     date: 2023-04-23
     type: report
     format: html
+datasetDOI: 10.5281/zenodo.7940272
 sameAs:
   - NP00561
 ---

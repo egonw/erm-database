@@ -1,0 +1,12 @@
+---
+title: "Material: ERM00000458"
+type: ChemicalSubstance
+id: ERM00000458
+tag: erm:ERM00000458
+tags: erm:ERM00000458
+chemicalComposition: ZnO
+nanoviz:
+ - label: ZnO
+datasetDOI: 10.5281/ZENODO.7940162
+a: npo:NPO_1542
+---

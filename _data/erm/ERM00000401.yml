@@ -11,6 +11,9 @@ otherLinks:
     format: html
 sameAs:
   - NP00195
+chemicalComposition: Ce0.5Zr0.5O2
+datasetDOI: 10.5281/ZENODO.7965446
+a: npo:NPO_707
 ---
 
 This material also has the NanoMILE identifier [NP00195](https://nanocommons.github.io/specifications/nanomile/).
