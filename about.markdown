@@ -6,7 +6,8 @@ permalink: /about/
 
 This database provides information about identifiers from the European Registry of Materials
 ([ERM identifiers](/erm-database/work/10.1186/S13321-022-00614-7)) for which a citable resource has provided
-information. This can be a dataset with a DOI or a (peer-reviewed) journal article.
+information. This can be a dataset with a DOI, a project deliverable, a presentation slidesdeck, a poster,
+or a (peer-reviewed) journal article.
 
 Because the registry merely registers the identifier, it allows ERM identifiers to be used
 before details are disclosed or measured. For exameple, a TiO<sub>2</sub> material is planned
