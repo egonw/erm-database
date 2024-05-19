@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Willighagen
+    given-names: Egon
+  - family-names: van Rijn
+    given-names: Jeaphianne
+  - family-names: Jeliazkova
+    given-names: Nina
+  - family-names: Dokler
+    given-names: Joh
+title: European Registry of Materials
+version: 2022-03
+doi: 10.5281/zenodo.6257661
+date-released: 2022-03-09
+url: "https://github.com/NanoCommons/identifiers"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: van Rijn
+      given-names: Jeaphianne
+      orcid: https://orcid.org/0000-0001-5026-7705
+    - family-names: Afantitis
+      given-names: Antreas
+    - family-names: Culha
+      given-names: Mustafa
+    - family-names: Dusinska
+      given-names: Maria
+    - family-names: Exner
+      given-names: Thomas
+    - family-names: Jeliazkova
+      given-names: Nina
+    - family-names: Longhin
+      given-names: Eleonora M.
+    - family-names: Lynch
+      given-names: Iseult
+    - family-names: Melagraki
+      given-names: Georgia
+    - family-names: Nymark
+      given-names: Penny
+    - family-names: Papadiamantis
+      given-names: Anastasios G.
+    - family-names: Winkler
+      given-names: David A.
+    - family-names: Yilmaz
+      given-names: Hulya
+    - family-names: Willighagen
+      given-names: Egon L.
+  title: "European Registry of Materials: global, unique identifiers for (undisclosed) nanomaterials"
+  year: 2022
+  month: 8
+  day: 24
+  journal: Journal of Cheminformatics
+  doi: 10.1186/s13321-022-00614-7
+  url: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-022-00614-7
