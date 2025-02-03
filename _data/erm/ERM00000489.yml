@@ -3,6 +3,10 @@ type: ChemicalSubstance
 id: ERM00000489
 tag: erm:ERM00000489
 tags: erm:ERM00000489 doi:10.5281/ZENODO.14097538
+a: npo:NPO_1373
+cas: 7631-86-9
+nanoviz:
+  - label: SiO2
 otherLinks:
   - url: https://doi.org/10.5281/zenodo.14097538
     title: Deliverable 1.1 HARMLESS database with extensions to handle advanced materials
