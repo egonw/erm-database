@@ -1,0 +1,12 @@
+---
+layout: work
+title: "Work: Deliverable 1.1 HARMLESS database with extensions to handle advanced materials"
+type: Report
+tag: doi:10.5281/ZENODO.14097538
+doi: doi:10.5281/ZENODO.14097538
+tags: harmless erm:ERM00000487 erm:ERM00000488 erm:ERM00000489
+  erm:ERM00000490 erm:ERM00000491 erm:ERM00000492 erm:ERM00000493 erm:ERM00000494
+  erm:ERM00000495 erm:ERM00000496 erm:ERM00000497 erm:ERM00000498 erm:ERM00000499
+  erm:ERM00000500 erm:ERM00000501 erm:ERM00000502 erm:ERM00000503 erm:ERM00000504
+  erm:ERM00000505
+---
