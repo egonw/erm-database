@@ -8,6 +8,9 @@ supplier:
   - name: TNO
     code: MOM2_PET_Vir_1
     batch: MOMENTUM 2.0
+otherLinks:
+  - databases:
+      - MOMENTUM
 ---
 
 Label: PET Vir <1
