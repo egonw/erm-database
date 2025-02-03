@@ -4,5 +4,9 @@ id: ERM00000487
 tag: erm:ERM00000487
 tags: erm:ERM00000487 doi:10.5281/ZENODO.14097538
 otherLinks:
+  - url: https://doi.org/10.5281/zenodo.14097538
+    title: Deliverable 1.1 HARMLESS database with extensions to handle advanced materials
+    date: 2024-11-12
+    type: deliverable
   - databases:
       - HARMLESS
