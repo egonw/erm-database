@@ -1,7 +1,7 @@
 title: "Material: ERM00000684"
 type: ChemicalSubstance
 id: ERM00000684
-chemicalComposition: [CH]CCCCCNC(=O)CCCCC(=O)[N]
+chemicalComposition: "[CH]CCCCCNC(=O)CCCCC(=O)[N]"
 tag: erm:ERM00000684
 cas: 63428-84-2
 supplier:
