@@ -1,0 +1,8 @@
+---
+layout: work
+title: "Work: XXXX"
+type: ScholarlyArticle
+tag: doi:10.1080/17435390.2022.2051627
+doi: doi:10.1080/17435390.2022.2051627
+url: https://doi.org/10.1080/17435390.2022.2051627
+---

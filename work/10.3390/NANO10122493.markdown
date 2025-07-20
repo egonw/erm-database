@@ -1,0 +1,8 @@
+---
+layout: work
+title: "Work: XXXX"
+type: ScholarlyArticle
+tag: doi:10.3390/NANO10122493
+doi: doi:10.3390/NANO10122493
+url: https://doi.org/10.3390/NANO10122493
+---
