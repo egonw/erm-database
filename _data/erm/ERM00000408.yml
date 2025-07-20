@@ -4,7 +4,7 @@ type: ChemicalSubstance
 id: ERM00000408
 tag: erm:ERM00000408
 chemicalComposition: Co0.75Fe2.25O4
-datasetDOI: 10.5281/zenodo.7940770
+datasetDOI: 10.5281/ZENODO.7940770
 a: npo:NPO_707
 otherLinks:
   - url: https://nanocommons.github.io/specifications/2023/WD-nanomile-20230423/
