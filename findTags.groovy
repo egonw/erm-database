@@ -41,6 +41,30 @@ posts.each() { post ->
   }
 }
 
+dir = new File("_data/erm/")
+dir.eachFileRecurse (FileType.FILES) { file ->
+  if (file.name.startsWith("ERM"))
+    posts << file
+}
+
+posts.each() { post ->
+  println "Processing ${post}"
+  header = false
+  tagline = false
+  post.eachLine { line ->
+    if (tagline && line.startsWith("  ")) {
+      line.split().each { tag -> tags.add("doi:"+tag) }
+    } else if (line.startsWith("scholarlyArticleDOI:")) {
+      tagline = true
+      line = line.substring(20)
+      line.split().each { tag -> tags.add("doi:"+tag) }
+    } else {
+      tagline = false
+    }
+  }
+}
+
+
 // Now that we have the tags, look for the interesting ones
 
 // First, works with DOIs
